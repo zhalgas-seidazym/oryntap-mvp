@@ -3,7 +3,7 @@
 Фронтенд-прототип (React + Vite) приложения «Орынтап»: показывает, как будет выглядеть MVP.
 Бэкенда нет — все данные моковые и живут в браузере.
 
-**Демо:** https://zhalgas-seidazym.github.io/oryntap-mvp/
+**Демо:** деплой на Vercel (Framework: Vite, build `npm run build`, output `dist`).
 
 ## Что внутри
 
@@ -39,4 +39,4 @@ src/
     PartnerDashboard.jsx  # панель партнёра
 ```
 
-Деплой — GitHub Actions → GitHub Pages при пуше в `main`.
+Деплой — Vercel (автодеплой при пуше в `main`). Переменные окружения не нужны.
