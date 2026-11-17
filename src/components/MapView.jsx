@@ -39,8 +39,9 @@ export default function MapView({ parkings, spots, selectedId, onSelect }) {
   return (
     <MapContainer center={[43.238, 76.93]} zoom={12} zoomControl={false} className="map" attributionControl>
       <TileLayer
-        url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-        attribution='&copy; OpenStreetMap &copy; CARTO'
+        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        maxZoom={19}
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       />
       <Resizer />
       <FlyTo target={selected} />

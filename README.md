@@ -34,7 +34,7 @@ src/
   components/
     Landing.jsx           # лендинг
     DriverApp.jsx         # мобильное приложение водителя (все экраны)
-    MapView.jsx           # карта (react-leaflet, тайлы CARTO/OSM)
+    MapView.jsx           # карта (react-leaflet, тайлы OpenStreetMap)
     SpotGrid.jsx          # схема мест с индикаторами
     PartnerDashboard.jsx  # панель партнёра
 ```
